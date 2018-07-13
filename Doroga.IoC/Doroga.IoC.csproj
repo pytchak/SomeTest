@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extras.AggregateService" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Doroga.Domain.Services\Doroga.Domain.Services.csproj" />
+    <ProjectReference Include="..\Doroga.Infrastructure.Sql\Doroga.Infrastructure.Sql.csproj" />
+    <ProjectReference Include="..\Doroga.Infrastructure\Doroga.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

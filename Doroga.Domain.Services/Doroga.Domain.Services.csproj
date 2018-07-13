@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Models\Doroga.Domain.Models.csproj" />
+    <ProjectReference Include="..\Doroga.Infrastructure\Doroga.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
